@@ -1,0 +1,14 @@
+{
+  "name": "web-65284-minimal-reproduction",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "prisma": "^5.9.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.9.1"
+  }
+}
