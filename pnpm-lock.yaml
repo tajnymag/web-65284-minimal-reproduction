@@ -13,6 +13,9 @@ devDependencies:
   prisma:
     specifier: ^5.9.1
     version: 5.9.1
+  typescript:
+    specifier: ^5.3.3
+    version: 5.3.3
 
 packages:
 
@@ -63,3 +66,9 @@ packages:
     requiresBuild: true
     dependencies:
       '@prisma/engines': 5.9.1
+
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
